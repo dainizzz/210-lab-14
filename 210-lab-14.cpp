@@ -10,11 +10,12 @@ class Color {
 	int red;
 	int green;
 	int blue;
-
 public:
+	// using const keyword because these functions should not change any data
 	int getRed() const { return red; }
 	int getGreen() const { return green; }
 	int getBlue() const { return blue; }
+	// using this keyword to differentiate between local variables and attributes
 	void setRed(int red) { this->red = red; }
 	void setGreen(int green) { this->green = green; }
 	void setBlue(int blue) { this->blue = blue; }
