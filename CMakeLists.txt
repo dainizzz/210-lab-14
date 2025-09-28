@@ -4,6 +4,4 @@ project(210_lab_14)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(210_lab_14
-        210-lab-14.cpp
-        Color.h
-        Color.cpp)
+        210-lab-14.cpp)
